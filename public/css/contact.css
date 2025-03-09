@@ -1,0 +1,103 @@
+.container-contact {
+    width: 100%;
+}
+
+.banner-contact {
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/slider4.jpg");
+    padding-top: 3%;
+}
+
+.banner-contact>div {
+    text-align: center;
+}
+
+.container-noidung {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.info-form {
+    width: 30%;
+}
+
+.ggmap {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 70%;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.info div,
+.form div {
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+.form textarea {
+    resize: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+h3 {
+    padding-left: 45px;
+}
+
+i.fa-contact {
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 50%;
+    color: green;
+}
+
+.btn-contact {
+    width: 35%;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #a2ccb6 50%, #fceeb5 100%);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    font-weight: bold;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.route a {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.active {
+    color: #25b542;
+}

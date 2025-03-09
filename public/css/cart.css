@@ -1,0 +1,314 @@
+#child {
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border: 1px solid;
+    overflow-y: auto;
+    display: none;
+}
+
+#cancel,
+#cancel-detail,
+#review-btn-cancel {
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 1px;
+}
+
+#cancel:hover,
+#cancel-detail:hover,
+#review-btn-cancel:hover {
+    color: red;
+}
+
+#container-cart {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+/* Bảng giỏ hàng  */
+.cart-table {
+    width: 100%;
+}
+
+.tr:nth-child(odd) {
+    background-color: rgb(231, 231, 231);
+}
+
+.tr td {
+    width: 13%;
+}
+
+#content-cart {
+    width: 55%;
+}
+
+#total-checkout {
+    width: 30%;
+    height: 300px;
+    background-color: #f5f7fa;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.th {
+    padding: 7px;
+}
+
+.cart-table td,
+.invoices td {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Shadow on the header row*/
+.cart-table>thead {
+    background-color: #f5f7fa;
+    box-shadow: 2px 2px 2px 0px gray;
+}
+
+/* Kết thúc bảng giỏ hàng  */
+
+.summary-table li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.bt {
+    margin-left: 10%;
+    font-size: 24px;
+    background-color: #116452;
+    width: 80%;
+    height: 50px;
+    color: #f5f7fa;
+    border: none;
+}
+
+.bt:hover {
+    background-color: black;
+}
+
+.cost {
+    color: red;
+}
+
+.del-his a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#menu-cart {
+    width: 15%;
+}
+
+#menu-cart li {
+    list-style: none;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.active {
+    font-size: 22px;
+    color: #ffb700;
+    margin-left: 10px;
+}
+
+h1 {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.img-cart {
+    width: 120px;
+    height: 120px;
+}
+
+.substract-add input {
+    width: 45px;
+    text-align: center;
+    height: 32px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: #f5f7fa;
+    border-radius: 6px;
+    color: black;
+}
+
+.substract-add button {
+    font-size: 15px;
+    border: 1px solid gray;
+    width: 30px;
+    height: 30px;
+    background-color: #f5f7fa;
+}
+
+.substract-add button:hover {
+    color: white;
+    background-color: gray;
+}
+
+/* Bảng hóa đơn*/
+.invoices {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invoices th {
+    padding: 10px;
+}
+
+/* Kết thúc bảng hóa đơn*/
+#detail-invoices {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    top: 7%;
+    left: 50%;
+    padding: 10px;
+    padding-top: 30px;
+    border: 1px solid black;
+    overflow-y: auto;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.header-invoices {
+    display: flex;
+}
+
+.info-detail {
+    width: 80%;
+    font-size: 14px;
+}
+
+.info-detail>div {
+    text-align: end;
+    margin-right: 10px;
+}
+
+.logo-detail {
+    width: 20%;
+}
+
+/* Bảng chi tiết hóa đơn */
+.invoices-table table,
+.invoices-table th,
+.invoices-table td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.info-cost {
+    text-align: start !important;
+}
+
+.invoices-table {
+    margin-top: 7px;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+.date-invoices {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.invoices-table td,
+.invoices-table th {
+    padding: 15px;
+}
+
+/* Kết thúc bảng chi tiết hóa đơn */
+.textarea-expanded {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 90%;
+    height: 90%;
+    background-color: #fffffff2;
+    color: black;
+    resize: none;
+}
+
+textarea {
+    background-color: white;
+    box-shadow: 1.5px 1.5px 1.5px 0px gray;
+    resize: none;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+textarea::placeholder {
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.alert {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+.alert button {
+    background-color: transparent;
+    border: none;
+}
+
+.alert-success {
+    background-color: #d1e7dd;
+    border-color: #a3cfbb;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffe69c;
+}
+
+.printer {
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+
+.printer>i {
+    color: blue;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
